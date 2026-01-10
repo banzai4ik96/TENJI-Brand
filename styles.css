@@ -1,12 +1,13 @@
 :root {
   color-scheme: light;
   font-family: "Montserrat", system-ui, sans-serif;
-  --bg: #0f0f1a;
-  --card: #1a1a2d;
-  --accent: #ff5aa5;
-  --accent-soft: #ffd0e6;
-  --text: #f8f7ff;
-  --muted: #c5c1d8;
+  --bg: #f7f3ff;
+  --card: #ffffff;
+  --accent: #ff3d9a;
+  --accent-2: #6d5bff;
+  --accent-soft: #ffe4f2;
+  --text: #1a102a;
+  --muted: #5b5470;
 }
 
 * {
@@ -27,7 +28,7 @@ a {
 }
 
 .hero {
-  background: radial-gradient(circle at top, #2a1c3f, #0f0f1a 60%);
+  background: radial-gradient(circle at top, #ffe6f4, #f7f3ff 60%);
   padding: 32px 6vw 80px;
 }
 
@@ -50,12 +51,13 @@ a {
 }
 
 .nav .cta {
-  background: var(--accent);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
   border: none;
-  color: var(--text);
+  color: #fff;
   padding: 12px 20px;
   border-radius: 999px;
   font-weight: 600;
+  box-shadow: 0 12px 24px rgba(109, 91, 255, 0.2);
 }
 
 .hero-content {
@@ -76,7 +78,7 @@ a {
 
 .badge {
   display: inline-block;
-  background: rgba(255, 90, 165, 0.2);
+  background: var(--accent-soft);
   color: var(--accent);
   padding: 6px 14px;
   border-radius: 999px;
@@ -100,8 +102,9 @@ a {
 }
 
 .primary {
-  background: var(--accent);
-  color: var(--text);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(255, 61, 154, 0.25);
 }
 
 .ghost {
@@ -131,7 +134,8 @@ a {
   background: var(--card);
   padding: 32px;
   border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(109, 91, 255, 0.15);
+  border: 1px solid #f0e6ff;
 }
 
 .hero-card h3 {
@@ -175,12 +179,14 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  box-shadow: 0 12px 24px rgba(255, 61, 154, 0.08);
+  border: 1px solid #f2ecff;
 }
 
 .product-tag {
   align-self: flex-start;
   background: var(--accent-soft);
-  color: #6d2146;
+  color: #99245c;
   padding: 4px 10px;
   border-radius: 999px;
   font-size: 0.8rem;
@@ -204,7 +210,7 @@ a {
 }
 
 .highlight {
-  background: #151528;
+  background: linear-gradient(180deg, #f7f3ff, #fff5fb);
 }
 
 .new-grid {
@@ -214,20 +220,22 @@ a {
 }
 
 .new-card {
-  background: linear-gradient(160deg, #251a3c, #1b1b2d);
+  background: #ffffff;
   padding: 28px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  border: 1px solid #f1e9ff;
+  box-shadow: 0 16px 30px rgba(109, 91, 255, 0.12);
 }
 
 .new-card button {
   align-self: flex-start;
   margin-top: auto;
-  background: var(--accent);
+  background: var(--accent-2);
   border: none;
-  color: var(--text);
+  color: #fff;
   padding: 8px 16px;
   border-radius: 10px;
 }
@@ -251,7 +259,7 @@ a {
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  background: #0b0b14;
+  background: #f0e6ff;
 }
 
 .footer p {
@@ -268,15 +276,15 @@ a {
   flex: 1;
   padding: 10px 14px;
   border-radius: 8px;
-  border: 1px solid #2f2f44;
-  background: #11111f;
+  border: 1px solid #e1d6ff;
+  background: #fff;
   color: var(--text);
 }
 
 .subscribe button {
   background: var(--accent);
   border: none;
-  color: var(--text);
+  color: #fff;
   padding: 10px 16px;
   border-radius: 8px;
 }
