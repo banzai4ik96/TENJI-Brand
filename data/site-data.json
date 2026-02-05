@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "settings": {
+    "brand_name": "TENJI BRAND",
+    "nav_catalog": "Каталог",
+    "nav_new": "Новинки",
+    "nav_about": "О нас",
+    "nav_contacts": "Контакты",
+    "nav_cta": "Оформить предзаказ",
+    "hero_badge": "ANIME VS ROCK",
+    "hero_title": "Противостояние культур: неон Токио против гитарного шторма",
+    "hero_lead": "TENJI BRAND создает одежду на стыке аниме-эстетики и рок-сцены. Мы смешиваем графику, фактуру и настроение, чтобы каждый образ звучал как мощный трек и выглядел как кадр из любимого тайтла.",
+    "hero_btn_primary": "Смотреть коллекции",
+    "hero_btn_secondary": "Собрать образ",
+    "metric_1_value": "140+",
+    "metric_1_label": "авторских принтов",
+    "metric_2_value": "48 часов",
+    "metric_2_label": "на сборку заказа",
+    "metric_3_value": "Limited",
+    "metric_3_label": "дропы без повтора",
+    "duel_anime_label": "Аниме",
+    "duel_anime_title": "Гладкий неон",
+    "duel_anime_text": "Линии манги, световые градиенты и атмосфера ночного города.",
+    "duel_rock_label": "Рок",
+    "duel_rock_title": "Грубый драйв",
+    "duel_rock_text": "Гранж-текстуры, рваные акценты и энергия живого выступления.",
+    "catalog_title": "Каталог TENJI BRAND",
+    "catalog_text": "Выбирайте коллекцию, добавляйте товар и оформляйте заказ в WhatsApp.",
+    "lookbook_title": "Lookbook TENJI",
+    "lookbook_text": "Свежие образы из вашего каталога.",
+    "drops_title": "Дроп недели",
+    "drops_text": "Две культуры — два настроения. Выбери свою сторону.",
+    "drops_anime_label": "Аниме линия",
+    "drops_anime_title": "Capsule «Moon Pulse»",
+    "drops_anime_text": "Светлый неон, чистая графика и мягкие оттенки японской ночи.",
+    "drops_anime_btn": "Смотреть",
+    "drops_rock_label": "Рок линия",
+    "drops_rock_title": "Capsule «Black Voltage»",
+    "drops_rock_text": "Грязные текстуры, жирная типографика и эффект сценической пыли.",
+    "drops_rock_btn": "Смотреть",
+    "about_title": "Почему выбирают TENJI BRAND",
+    "feature_1_title": "Сильная идея",
+    "feature_1_text": "Каждый дроп строится вокруг сюжета — от аниме-арки до концертного тура.",
+    "feature_2_title": "Качество сцены",
+    "feature_2_text": "Плотные ткани, стойкие краски и комфортный силуэт под ежедневный ритм.",
+    "feature_3_title": "Доставка по Казахстану",
+    "feature_3_text": "Быстро и прозрачно: трекинг, понятные сроки и поддержка в мессенджерах.",
+    "footer_about_title": "TENJI BRAND",
+    "footer_about_text": "Аниме и рок одежда TENJI BRAND с доставкой по всему Казахстану.",
+    "footer_contacts_title": "Контакты",
+    "footer_telegram": "Telegram: @tenjibrand",
+    "footer_email": "Email: hello@tenjibrand.kz",
+    "footer_whatsapp": "WhatsApp: +7 708 007 41 62",
+    "footer_subscribe_title": "Подписка",
+    "footer_subscribe_text": "Получайте анонсы дропов первыми.",
+    "footer_subscribe_btn": "Подписаться",
+    "whatsapp_number": "+77080074162",
+    "nav_lookbook": "??????"
+  },
+  "products": [
+    {
+      "id": 2,
+      "title": "Футболка Guns n Roses",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "морковка морковка иногда какашка",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "images": [
+        "uploads/products/product_0b40e69440f1c3ad5aa5.png",
+        "uploads/products/product_7960a9c036caf4a859e6.png",
+        "uploads/products/product_cb4b827ab38416d74b4e.png",
+        "uploads/products/product_48c47d2154838028249a.png"
+      ],
+      "created_at": "2026-02-03 16:44:20"
+    },
+    {
+      "id": 1,
+      "title": "Футболка Атака Титанов",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "морковка морковка иногда какашка",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "images": [
+        "uploads/products/product_87dbda722c21cb7b4376.png",
+        "uploads/products/product_31b43a9329c1faa21f4d.png",
+        "uploads/products/product_707a53c32e62bdb89860.png"
+      ],
+      "created_at": "2026-02-03 16:33:10"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">TENJI BRAND Open Graph Image</title>
+  <desc id="desc">Placeholder image for social preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a7ea3" />
+      <stop offset="100%" stop-color="#8a0f2a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="#000" fill-opacity="0.36" />
+  <text x="80" y="305" fill="#ffffff" font-family="'Segoe UI', Tahoma, sans-serif" font-size="88" font-weight="700">
+    TENJI BRAND
+  </text>
+  <text x="80" y="380" fill="#f2f2f2" font-family="'Segoe UI', Tahoma, sans-serif" font-size="36">
+    Anime x Rock Apparel
+  </text>
+</svg>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://banzai4ik96.github.io/TENJI-Brand/sitemap.xml

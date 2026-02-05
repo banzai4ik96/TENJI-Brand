@@ -1,12 +1,35 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TENJI BRAND — витрина аниме одежды</title>
+    <!--
+      SEO SETTINGS:
+      SITE_NAME = "..."
+      SITE_TITLE = "..."
+      SITE_DESCRIPTION = "..."
+      SITE_URL = "https://banzai4ik96.github.io/TENJI-Brand/"
+      OG_IMAGE_URL = "https://banzai4ik96.github.io/TENJI-Brand/assets/seo/og-image.png"
+    -->
+    <title>SITE_TITLE</title>
+    <meta name="description" content="SITE_DESCRIPTION" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://banzai4ik96.github.io/TENJI-Brand/" />
+    <meta property="og:title" content="SITE_TITLE" />
+    <meta property="og:description" content="SITE_DESCRIPTION" />
+    <meta property="og:url" content="https://banzai4ik96.github.io/TENJI-Brand/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://banzai4ik96.github.io/TENJI-Brand/assets/seo/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SITE_TITLE" />
+    <meta name="twitter:description" content="SITE_DESCRIPTION" />
+    <meta name="twitter:image" content="https://banzai4ik96.github.io/TENJI-Brand/assets/seo/og-image.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" type="image/png" href="images/Tenji-logo.png" />
+    <link rel="apple-touch-icon" href="images/Tenji-logo.png" />
     <link rel="stylesheet" href="styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -14,144 +37,133 @@
     <header class="hero">
       <nav class="nav">
         <div class="logo">
-          <img src="assets/tenji-logo.svg" alt="TENJI BRAND" />
-          <span>TENJI BRAND</span>
+          <img src="images/Tenji-logo.png" alt="Логотип TENJI BRAND" />
+          <span data-cms="brand_name">TENJI BRAND</span>
         </div>
         <div class="nav-links">
-          <a href="#catalog">Каталог</a>
-          <a href="#new">Новинки</a>
-          <a href="#about">О нас</a>
-          <a href="#contacts">Контакты</a>
+          <a href="#catalog" data-cms="nav_catalog">Каталог</a>
+          <a href="#lookbook" data-cms="nav_lookbook">Лукбук</a>
+          <a href="#new" data-cms="nav_new">Новинки</a>
+          <a href="#about" data-cms="nav_about">О нас</a>
+          <a href="#contacts" data-cms="nav_contacts">Контакты</a>
         </div>
-        <button class="cta">Оформить предзаказ</button>
+        <button class="cta" data-cms="nav_cta">Оформить предзаказ</button>
       </nav>
-      <div class="hero-content">
-        <div class="hero-text">
-          <p class="badge">Аниме капсула 2024</p>
-          <h1>Яркая витрина одежды TENJI BRAND, где каждый образ — как кадр из любимого аниме</h1>
-          <p>
-            Коллекции по мотивам культовых тайтлов: от уличного стиля в духе
-            «Токийских мстителей» до минимализма «Евангелиона». Создаем капсулы,
-            которые хочется носить каждый день.
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="badge" data-cms="hero_badge">Аниме × Рок капсула 2026</p>
+          <h1 data-cms="hero_title">Противостояние культур: неон Токио против гитарного шторма</h1>
+          <p class="lead" data-cms="hero_lead">
+            TENJI BRAND создает одежду на стыке аниме-эстетики и рок-сцены.
+            Мы смешиваем графику, фактуру и настроение, чтобы каждый образ звучал
+            как мощный трек и выглядел как кадр из любимого тайтла.
           </p>
           <div class="hero-actions">
-            <button class="primary">Смотреть коллекции</button>
-            <button class="ghost">Подобрать образ</button>
+            <button class="primary" data-cms="hero_btn_primary">Смотреть коллекции</button>
+            <button class="ghost" data-cms="hero_btn_secondary">Собрать образ</button>
           </div>
-          <div class="stats">
+          <div class="hero-metrics">
             <div>
-              <strong>120+</strong>
-              <span>уникальных дизайнов</span>
+              <strong data-cms="metric_1_value">140+</strong>
+              <span data-cms="metric_1_label">авторских принтов</span>
             </div>
             <div>
-              <strong>24 часа</strong>
-              <span>на сборку заказа</span>
+              <strong data-cms="metric_2_value">48 часов</strong>
+              <span data-cms="metric_2_label">на сборку заказа</span>
             </div>
             <div>
-              <strong>100%</strong>
-              <span>лимитированные дропы</span>
+              <strong data-cms="metric_3_value">Limited</strong>
+              <span data-cms="metric_3_label">дропы без повтора</span>
             </div>
           </div>
         </div>
-        <div class="hero-card">
-          <h3>Дроп недели от TENJI</h3>
-          <p>Аниме-тейк на киберпанк: худи «Neon Spirit»</p>
-          <ul>
-            <li>Светоотражающая вышивка</li>
-            <li>Свободный unisex крой</li>
-            <li>Размеры XS–XXL</li>
-          </ul>
-          <button class="primary">Забрать дроп</button>
+        <div class="hero-duel">
+          <div class="duel-side anime">
+            <span class="duel-label" data-cms="duel_anime_label">Аниме</span>
+            <div class="duel-media">
+              <img src="images/catalog/48a813c6-68b8-43ec-af1a-e73770991614.png" alt="Аниме образ TENJI" />
+            </div>
+            <h3 data-cms="duel_anime_title">Гладкий неон</h3>
+            <p data-cms="duel_anime_text">Линии манги, световые градиенты и атмосфера ночного города.</p>
+            <ul>
+              <li>Минималистичные принты</li>
+              <li>Четкий силуэт</li>
+              <li>Светящиеся детали</li>
+            </ul>
+          </div>
+          <div class="duel-divider">VS</div>
+          <div class="duel-side rock">
+            <span class="duel-label" data-cms="duel_rock_label">Рок</span>
+            <div class="duel-media">
+              <img src="images/catalog/6c2e8f52-e842-421d-ad25-9508fa704eaa.png" alt="Рок образ TENJI" />
+            </div>
+            <h3 data-cms="duel_rock_title">Грубый драйв</h3>
+            <p data-cms="duel_rock_text">Гранж-текстуры, рваные акценты и энергия живого выступления.</p>
+            <ul>
+              <li>Тяжелые ткани</li>
+              <li>Контрастные графики</li>
+              <li>Смелые надписи</li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="catalog" class="section">
+      <section id="catalog" class="section catalog">
         <div class="section-header">
-          <h2>Каталог TENJI BRAND</h2>
-          <p>Популярные модели, которые часто раскупают в первые часы.</p>
+          <h2 data-cms="catalog_title">Каталог TENJI BRAND</h2>
+          <p data-cms="catalog_text">Выбирайте коллекцию, добавляйте товар и оформляйте заказ в WhatsApp.</p>
         </div>
-        <div class="grid">
-          <article class="product-card">
-            <div class="product-tag">Лимит</div>
-            <h3>Худи «Neon Spirit»</h3>
-            <p>Киберпанк-вайб, неоновые принты и мягкий флис.</p>
-            <div class="product-meta">
-              <span>от 39 900 ₸</span>
-              <button>В корзину</button>
-            </div>
+        <div id="catalog-filters" class="catalog-filters"></div>
+        <div id="catalog-grid" class="grid"></div>
+      </section>
+
+      <section id="lookbook" class="section lookbook">
+        <div class="section-header">
+          <h2 data-cms="lookbook_title">Lookbook TENJI</h2>
+          <p data-cms="lookbook_text">Свежие образы из вашего каталога.</p>
+        </div>
+        <div id="lookbook-grid" class="lookbook-grid"></div>
+      </section>
+
+      <section id="new" class="section highlight drops">
+        <div class="section-header">
+          <h2 data-cms="drops_title">Дроп недели</h2>
+          <p data-cms="drops_text">Две культуры — два настроения. Выбери свою сторону.</p>
+        </div>
+        <div class="duo-grid">
+          <article class="duo-card anime">
+            <p class="duo-tag" data-cms="drops_anime_label">Аниме линия</p>
+            <h3 data-cms="drops_anime_title">Capsule «Moon Pulse»</h3>
+            <p data-cms="drops_anime_text">Светлый неон, чистая графика и мягкие оттенки японской ночи.</p>
+            <button data-cms="drops_anime_btn">Смотреть</button>
           </article>
-          <article class="product-card">
-            <div class="product-tag">Новинка</div>
-            <h3>Бомбер «Tokyo Dawn»</h3>
-            <p>Легкий бомбер, вдохновленный ночным Токио.</p>
-            <div class="product-meta">
-              <span>от 47 900 ₸</span>
-              <button>В корзину</button>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-tag">Бестселлер</div>
-            <h3>Футболка «Shonen Flow»</h3>
-            <p>Универсальная база с минималистичным арт-принтом.</p>
-            <div class="product-meta">
-              <span>от 13 900 ₸</span>
-              <button>В корзину</button>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-tag">Микс</div>
-            <h3>Карго «Mecha Unit»</h3>
-            <p>Функциональные карго с удобными карманами.</p>
-            <div class="product-meta">
-              <span>от 31 900 ₸</span>
-              <button>В корзину</button>
-            </div>
+          <article class="duo-card rock">
+            <p class="duo-tag" data-cms="drops_rock_label">Рок линия</p>
+            <h3 data-cms="drops_rock_title">Capsule «Black Voltage»</h3>
+            <p data-cms="drops_rock_text">Грязные текстуры, жирная типографика и эффект сценической пыли.</p>
+            <button data-cms="drops_rock_btn">Смотреть</button>
           </article>
         </div>
       </section>
 
-      <section id="new" class="section highlight">
+      <section id="about" class="section manifesto">
         <div class="section-header">
-          <h2>Новинки сезона</h2>
-          <p>Свежие релизы, которые появились на витрине этой недели.</p>
-        </div>
-        <div class="new-grid">
-          <div class="new-card">
-            <h3>Сет «Moon Guardian»</h3>
-            <p>Комплект для любителей магических историй и мягких пастельных тонов.</p>
-            <button>Посмотреть</button>
-          </div>
-          <div class="new-card">
-            <h3>Лонгслив «Kaizen»</h3>
-            <p>Графика в стиле каллиграфии и уплотненный хлопок.</p>
-            <button>Посмотреть</button>
-          </div>
-          <div class="new-card">
-            <h3>Юбка «Sakura Street»</h3>
-            <p>Плиссировка и акцентные детали с оттенком весеннего цветения.</p>
-            <button>Посмотреть</button>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="section-header">
-          <h2>Почему выбирают TENJI BRAND</h2>
+          <h2 data-cms="about_title">Почему выбирают TENJI BRAND</h2>
         </div>
         <div class="features">
           <div>
-            <h4>Кураторские подборки</h4>
-            <p>Мы работаем с художниками и стилистами, чтобы каждый дроп был цельным.</p>
+            <h3 class="minor-heading" data-cms="feature_1_title">Сильная идея</h3>
+            <p data-cms="feature_1_text">Каждый дроп строится вокруг сюжета — от аниме-арки до концертного тура.</p>
           </div>
           <div>
-            <h4>Прозрачное производство</h4>
-            <p>Показываем процесс, материалы и источники вдохновения.</p>
+            <h3 class="minor-heading" data-cms="feature_2_title">Качество сцены</h3>
+            <p data-cms="feature_2_text">Плотные ткани, стойкие краски и комфортный силуэт под ежедневный ритм.</p>
           </div>
           <div>
-            <h4>Доставка по Казахстану</h4>
-            <p>Привозим заказы в крупные города и даем понятные сроки.</p>
+            <h3 class="minor-heading" data-cms="feature_3_title">Доставка по Казахстану</h3>
+            <p data-cms="feature_3_text">Быстро и прозрачно: трекинг, понятные сроки и поддержка в мессенджерах.</p>
           </div>
         </div>
       </section>
@@ -159,22 +171,27 @@
 
     <footer id="contacts" class="footer">
       <div>
-        <h3>TENJI BRAND</h3>
-        <p>Витрина аниме одежды TENJI BRAND с доставкой по всему Казахстану.</p>
+        <h3 data-cms="footer_about_title">TENJI BRAND</h3>
+        <p data-cms="footer_about_text">Аниме и рок одежда TENJI BRAND с доставкой по всему Казахстану.</p>
       </div>
       <div>
-        <h4>Контакты</h4>
-        <p>Telegram: @tenjibrand</p>
-        <p>Email: hello@tenjibrand.kz</p>
+        <h3 class="minor-heading" data-cms="footer_contacts_title">Контакты</h3>
+        <p data-cms="footer_telegram">Telegram: @tenjibrand</p>
+        <p data-cms="footer_email">Email: hello@tenjibrand.kz</p>
+        <p>
+          <span data-cms="footer_whatsapp">WhatsApp: +7 708 007 41 62</span>
+          <a id="footer-whatsapp-link" href="https://wa.me/77080074162" target="_blank" rel="noopener noreferrer">Написать</a>
+        </p>
       </div>
       <div>
-        <h4>Подписка</h4>
-        <p>Получайте анонсы дропов первыми.</p>
+        <h3 class="minor-heading" data-cms="footer_subscribe_title">Подписка</h3>
+        <p data-cms="footer_subscribe_text">Получайте анонсы дропов первыми.</p>
         <form class="subscribe">
           <input type="email" placeholder="Ваш email" />
-          <button type="submit">Подписаться</button>
+          <button type="submit" data-cms="footer_subscribe_btn">Подписаться</button>
         </form>
       </div>
     </footer>
+    <script src="site.js"></script>
   </body>
 </html>
