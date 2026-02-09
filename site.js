@@ -101,7 +101,7 @@
       media.className = "product-media";
       const img = document.createElement("img");
       img.src = images[idx];
-      img.alt = item.title;
+      img.alt = item.title || "Футболка TENJI";
       media.appendChild(img);
 
       if (images.length > 1) {
@@ -163,8 +163,9 @@
         const figure = document.createElement("figure");
         const img = document.createElement("img");
         const source = Array.isArray(item.images) && item.images.length ? item.images[0] : "images/Tenji-logo.png";
+        const title = item.title || `Образ TENJI ${index + 1}`;
         img.src = source;
-        img.alt = `TENJI look ${index + 1}`;
+        img.alt = `Лукбук TENJI: ${title}`;
         figure.appendChild(img);
         lookbookWrap.appendChild(figure);
       });
