@@ -14,7 +14,7 @@
     "hero_btn_secondary": "Оплата Kaspi",
     "metric_1_value": "140+",
     "metric_1_label": "авторских принтов",
-    "metric_2_value": "48 часов",
+    "metric_2_value": "30 Минут",
     "metric_2_label": "на сборку заказа",
     "metric_3_value": "Limited",
     "metric_3_label": "дропы без повтора",
@@ -55,7 +55,7 @@
     "footer_subscribe_text": "Получайте анонсы дропов первыми.",
     "footer_subscribe_btn": "Подписаться",
     "whatsapp_number": "+77080074162",
-    "nav_lookbook": "??????"
+    "nav_lookbook": "LOOKBOOK"
   },
   "products": [
     {
