@@ -59,11 +59,97 @@
   },
   "products": [
     {
+     "id": 10,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 9,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 8,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 7,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 6,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 5,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 4,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": ["uploads/products/example.png"],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
+     "id": 3,
+      "title": "Футболка Example",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Описание",
+      "sizes": ["S", "M", "L", "XL"],
+      "images": [
+        "uploads/products/Zoro.png",
+        "uploads/products/Zoro2.png",
+        "uploads/products/Zoro3.png",
+        "uploads/products/Zoro4.png",
+        "uploads/products/Zoro5.png"
+    ],
+      "created_at": "2026-02-12 18:30:00"
+    },
+    {
       "id": 2,
       "title": "Футболка Guns n Roses",
       "price": 17900,
       "collection": "TENJI Brand",
-      "description": "морковка морковка иногда какашка",
+      "description": "Футболка GUNS N ROSES в рок стиле лучше чем в Kaspi",
       "sizes": [
         "S",
         "M",
@@ -84,18 +170,15 @@
       "title": "Футболка Атака Титанов",
       "price": 17900,
       "collection": "TENJI Brand",
-      "description": "морковка морковка иногда какашка",
+      "description": "Футболка Атака Титанов в ретро стиле лучше чем в Kaspi",
       "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
+        "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/product_87dbda722c21cb7b4376.png",
+        "uploads/products/product_707a53c32e62bdb89860.png",
         "uploads/products/product_31b43a9329c1faa21f4d.png",
-        "uploads/products/product_707a53c32e62bdb89860.png"
+        "uploads/products/d493ac9e-222c-4006-a404-1e2576c32b6e.png",
+        "uploads/products/47f74e0e-8180-4bcb-9b20-1bfe962daa4d.png"
       ],
       "created_at": "2026-02-03 16:33:10"
     }
