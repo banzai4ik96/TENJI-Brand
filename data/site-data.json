@@ -130,11 +130,11 @@
     },
     {
      "id": 3,
-      "title": "Футболка Example",
+      "title": "Футболка Zoro One Piece",
       "price": 17900,
       "collection": "TENJI Brand",
-      "description": "Описание",
-      "sizes": ["S", "M", "L", "XL"],
+      "description": "Футболка Аниме Зоро Ванпис, серая яркая отличного качества, ткань холодок ",
+      "sizes": ["OneSize-Oversize"],
       "images": [
         "uploads/products/Zoro.png",
         "uploads/products/Zoro2.png",
@@ -151,11 +151,7 @@
       "collection": "TENJI Brand",
       "description": "Футболка GUNS N ROSES в рок стиле лучше чем в Kaspi",
       "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
+        "OneSize-Oversize"
       ],
       "images": [
         "uploads/products/product_0b40e69440f1c3ad5aa5.png",
