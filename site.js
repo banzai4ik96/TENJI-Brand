@@ -108,7 +108,7 @@
         const prev = document.createElement("button");
         prev.type = "button";
         prev.className = "carousel-btn prev";
-        prev.textContent = "‹";
+        prev.textContent = "<";
         prev.addEventListener("click", (event) => {
           event.preventDefault();
           state.carousel[item.id] = (state.carousel[item.id] - 1 + images.length) % images.length;
@@ -118,7 +118,7 @@
         const next = document.createElement("button");
         next.type = "button";
         next.className = "carousel-btn next";
-        next.textContent = "›";
+        next.textContent = ">";
         next.addEventListener("click", (event) => {
           event.preventDefault();
           state.carousel[item.id] = (state.carousel[item.id] + 1) % images.length;
@@ -157,18 +157,19 @@
 
   function renderLookbook() {
     lookbookWrap.innerHTML = "";
-    filteredProducts()
-      .slice(0, 18)
-      .forEach((item, index) => {
+    filteredProducts().forEach((item, index) => {
+      const title = item.title || `Образ TENJI ${index + 1}`;
+      const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/Tenji-logo.png"];
+
+      images.forEach((source, imageIndex) => {
         const figure = document.createElement("figure");
         const img = document.createElement("img");
-        const source = Array.isArray(item.images) && item.images.length ? item.images[0] : "images/Tenji-logo.png";
-        const title = item.title || `Образ TENJI ${index + 1}`;
         img.src = source;
-        img.alt = `Лукбук TENJI: ${title}`;
+        img.alt = `Лукбук TENJI: ${title} #${imageIndex + 1}`;
         figure.appendChild(img);
         lookbookWrap.appendChild(figure);
       });
+    });
   }
 
   function renderAll() {
