@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 Sitemap: https://banzai4ik96.github.io/TENJI-Brand/sitemap.xml
 Sitemap: https://banzai4ik96.github.io/TENJI-Brand/sitemap-main.xml
+Sitemap: https://banzai4ik96.github.io/TENJI-Brand/sitemap.txt
+Sitemap: https://banzai4ik96.github.io/TENJI-Brand/sitemap-test.xml
