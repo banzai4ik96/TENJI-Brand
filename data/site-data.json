@@ -68,11 +68,11 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Demonslayer.png",
-        "uploads/products/Demonslayer2.png",
-        "uploads/products/Demonslayer3.png",
-        "uploads/products/Demonslayer4.png",
-        "uploads/products/Demonslayer5.png"
+        "uploads/products-web/Demonslayer.jpg",
+        "uploads/products-web/Demonslayer2.jpg",
+        "uploads/products-web/Demonslayer3.jpg",
+        "uploads/products-web/Demonslayer4.jpg",
+        "uploads/products-web/Demonslayer5.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -86,12 +86,12 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Inosuke.png",
-        "uploads/products/Inosuke6.png",
-        "uploads/products/Inosuke3.png",
-        "uploads/products/Inosuke4.png",
-        "uploads/products/Inosuke5.png",
-        "uploads/products/Inosuke2.png"
+        "uploads/products-web/Inosuke.jpg",
+        "uploads/products-web/Inosuke6.jpg",
+        "uploads/products-web/Inosuke3.jpg",
+        "uploads/products-web/Inosuke4.jpg",
+        "uploads/products-web/Inosuke5.jpg",
+        "uploads/products-web/Inosuke2.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -105,11 +105,11 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/kofeb.png",
-        "uploads/products/kofeb2.png",
-        "uploads/products/kofeb3.png",
-        "uploads/products/kofeb4.png",
-        "uploads/products/kofeb5.png"
+        "uploads/products-web/kofeb.jpg",
+        "uploads/products-web/kofeb2.jpg",
+        "uploads/products-web/kofeb3.jpg",
+        "uploads/products-web/kofeb4.jpg",
+        "uploads/products-web/kofeb5.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -123,9 +123,9 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Jujutsukaisen.png",
-        "uploads/products/Jujutsukaisen2.png",
-        "uploads/products/Jujutsukaisen3.png"
+        "uploads/products-web/Jujutsukaisen.jpg",
+        "uploads/products-web/Jujutsukaisen2.jpg",
+        "uploads/products-web/Jujutsukaisen3.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -139,9 +139,9 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Itachi2.png",
-        "uploads/products/Itachi.png",
-        "uploads/products/Itachi3.png"
+        "uploads/products-web/Itachi2.jpg",
+        "uploads/products-web/Itachi.jpg",
+        "uploads/products-web/Itachi3.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -155,9 +155,9 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Monalisa.png",
-        "uploads/products/Monalisa2.png",
-        "uploads/products/Monalisa3.png"
+        "uploads/products-web/Monalisa.jpg",
+        "uploads/products-web/Monalisa2.jpg",
+        "uploads/products-web/Monalisa3.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -171,10 +171,10 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Attackontitan.png",
-        "uploads/products/Attackontitan2.png",
-        "uploads/products/Attackontitan3.png",
-        "uploads/products/Attackontitan4.png"
+        "uploads/products-web/Attackontitan.jpg",
+        "uploads/products-web/Attackontitan2.jpg",
+        "uploads/products-web/Attackontitan3.jpg",
+        "uploads/products-web/Attackontitan4.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -188,11 +188,11 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/Zoro.png",
-        "uploads/products/Zoro2.png",
-        "uploads/products/Zoro3.png",
-        "uploads/products/Zoro4.png",
-        "uploads/products/Zoro5.png"
+        "uploads/products-web/Zoro.jpg",
+        "uploads/products-web/Zoro2.jpg",
+        "uploads/products-web/Zoro3.jpg",
+        "uploads/products-web/Zoro4.jpg",
+        "uploads/products-web/Zoro5.jpg"
       ],
       "created_at": "2026-02-12 18:30:00"
     },
@@ -206,10 +206,10 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/product_0b40e69440f1c3ad5aa5.png",
-        "uploads/products/product_7960a9c036caf4a859e6.png",
-        "uploads/products/product_cb4b827ab38416d74b4e.png",
-        "uploads/products/product_48c47d2154838028249a.png"
+        "uploads/products-web/product_0b40e69440f1c3ad5aa5.jpg",
+        "uploads/products-web/product_7960a9c036caf4a859e6.jpg",
+        "uploads/products-web/product_cb4b827ab38416d74b4e.jpg",
+        "uploads/products-web/product_48c47d2154838028249a.jpg"
       ],
       "created_at": "2026-02-03 16:44:20"
     },
@@ -223,10 +223,10 @@
         "OneSize-Oversize"
       ],
       "images": [
-        "uploads/products/product_707a53c32e62bdb89860.png",
-        "uploads/products/product_31b43a9329c1faa21f4d.png",
-        "uploads/products/d493ac9e-222c-4006-a404-1e2576c32b6e.png",
-        "uploads/products/47f74e0e-8180-4bcb-9b20-1bfe962daa4d.png"
+        "uploads/products-web/product_707a53c32e62bdb89860.jpg",
+        "uploads/products-web/product_31b43a9329c1faa21f4d.jpg",
+        "uploads/products-web/d493ac9e-222c-4006-a404-1e2576c32b6e.jpg",
+        "uploads/products-web/47f74e0e-8180-4bcb-9b20-1bfe962daa4d.jpg"
       ],
       "created_at": "2026-02-03 16:33:10"
     }

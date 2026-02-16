@@ -47,7 +47,7 @@
             "@type": "Organization",
             "name": "TENJI Brand",
             "url": "https://banzai4ik96.github.io/TENJI-Brand/",
-            "logo": "https://banzai4ik96.github.io/TENJI-Brand/images/Tenji-logo.png",
+            "logo": "https://banzai4ik96.github.io/TENJI-Brand/images/optimized/tenji-logo-320.png",
             "sameAs": [
               "https://www.instagram.com/tenji.brand?igsh=dXY1ZzdtYmI5YzIx&utm_source=qr",
               "https://www.tiktok.com/@tenji.brand?_r=1&_t=ZS-93mLjfUXfSn"
@@ -109,19 +109,43 @@
       }
     </script>
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="icon" type="image/png" href="images/Tenji-logo.png" />
-    <link rel="apple-touch-icon" href="images/Tenji-logo.png" />
+    <link rel="icon" type="image/png" href="images/optimized/tenji-logo-320.png" />
+    <link rel="apple-touch-icon" href="images/optimized/tenji-logo-320.png" />
+    <link rel="preload" as="image" href="images/optimized/tenji-logo-320.png" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
   </head>
   <body>
     <header class="hero">
       <nav class="nav">
         <div class="logo">
-          <img src="images/Tenji-logo.png" alt="Логотип TENJI BRAND" />
+          <img
+            src="images/optimized/tenji-logo-320.png"
+            alt="Логотип TENJI BRAND"
+            width="200"
+            height="200"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
           <span data-cms="brand_name">TENJI BRAND</span>
         </div>
         <div class="nav-links">
@@ -214,8 +238,13 @@
             <span class="duel-label" data-cms="duel_anime_label">Аниме</span>
             <div class="duel-media">
               <img
-                src="images/catalog/48a813c6-68b8-43ec-af1a-e73770991614.png"
+                src="images/optimized/hero-anime-600.jpg"
                 alt="Аниме футболка TENJI — образ из каталога"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+                width="520"
+                height="924"
               />
             </div>
             <h3 data-cms="duel_anime_title">Гладкий неон</h3>
@@ -231,8 +260,13 @@
             <span class="duel-label" data-cms="duel_rock_label">Рок</span>
             <div class="duel-media">
               <img
-                src="images/catalog/2fde7303-c23e-41e4-9aa7-217b042c0316.png"
+                src="images/optimized/hero-rock-600.jpg"
                 alt="Рок футболка TENJI — образ из каталога"
+                loading="lazy"
+                fetchpriority="low"
+                decoding="async"
+                width="520"
+                height="924"
               />
             </div>
             <h3 data-cms="duel_rock_title">Грубый драйв</h3>

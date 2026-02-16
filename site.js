@@ -103,7 +103,7 @@
     }
 
     items.forEach((item) => {
-      const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/Tenji-logo.png"];
+      const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/optimized/tenji-logo-320.png"];
       if (typeof state.carousel[item.id] !== "number") state.carousel[item.id] = 0;
       const idx = state.carousel[item.id] % images.length;
 
@@ -119,6 +119,9 @@
       const img = document.createElement("img");
       img.src = images[idx];
       img.alt = buildProductAlt(item, idx, images.length, "catalog");
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.setAttribute("fetchpriority", "low");
       media.appendChild(img);
 
       if (images.length > 1) {
@@ -175,13 +178,16 @@
   function renderLookbook() {
     lookbookWrap.innerHTML = "";
     filteredProducts().forEach((item) => {
-      const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/Tenji-logo.png"];
+      const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/optimized/tenji-logo-320.png"];
 
       images.forEach((source, imageIndex) => {
         const figure = document.createElement("figure");
         const img = document.createElement("img");
         img.src = source;
         img.alt = buildProductAlt(item, imageIndex, images.length, "lookbook");
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.setAttribute("fetchpriority", "low");
         figure.appendChild(img);
         lookbookWrap.appendChild(figure);
       });
