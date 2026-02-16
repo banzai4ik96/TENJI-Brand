@@ -17,6 +17,21 @@
 
   const formatPrice = (value) => `от ${Number(value || 0).toLocaleString("ru-RU")} ₸`;
 
+  function productKeyword(collection) {
+    const value = String(collection || "").toLowerCase();
+    if (value.includes("anime")) return "Аниме футболка";
+    if (value.includes("rock")) return "Рок футболка";
+    return "Футболка с принтом";
+  }
+
+  function buildProductAlt(item, imageIndex, imageCount, context) {
+    const title = String(item?.title || "TENJI Brand").trim();
+    const keyword = productKeyword(item?.collection);
+    const photo = imageCount > 1 ? `Фото ${imageIndex + 1} из ${imageCount}` : "Фото товара";
+    const area = context === "lookbook" ? "Lookbook TENJI" : "Каталог TENJI";
+    return `${keyword} TENJI Brand: ${title}. ${photo}. ${area}. Алматы.`;
+  }
+
   function normalizePhone(value) {
     return String(value || "")
       .replace(/\D/g, "")
@@ -103,7 +118,7 @@
       media.className = "product-media";
       const img = document.createElement("img");
       img.src = images[idx];
-      img.alt = item.title || "Футболка TENJI";
+      img.alt = buildProductAlt(item, idx, images.length, "catalog");
       media.appendChild(img);
 
       if (images.length > 1) {
@@ -159,15 +174,14 @@
 
   function renderLookbook() {
     lookbookWrap.innerHTML = "";
-    filteredProducts().forEach((item, index) => {
-      const title = item.title || `Образ TENJI ${index + 1}`;
+    filteredProducts().forEach((item) => {
       const images = Array.isArray(item.images) && item.images.length ? item.images : ["images/Tenji-logo.png"];
 
       images.forEach((source, imageIndex) => {
         const figure = document.createElement("figure");
         const img = document.createElement("img");
         img.src = source;
-        img.alt = `Лукбук TENJI: ${title} #${imageIndex + 1}`;
+        img.alt = buildProductAlt(item, imageIndex, images.length, "lookbook");
         figure.appendChild(img);
         lookbookWrap.appendChild(figure);
       });
