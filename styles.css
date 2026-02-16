@@ -93,6 +93,55 @@ h4 {
   font-weight: 500;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.social-icon:hover,
+.social-icon:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+.social-icon.whatsapp {
+  color: #25d366;
+}
+
+.social-icon.tiktok {
+  color: #ffffff;
+}
+
+.social-icon.instagram {
+  color: #f77737;
+}
+
 .nav-links a {
   position: relative;
   padding-bottom: 4px;
@@ -811,6 +860,12 @@ h4 {
   }
 
   .nav-links {
+    flex-wrap: wrap;
+  }
+
+  .nav-actions {
+    width: 100%;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
 
