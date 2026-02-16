@@ -530,6 +530,7 @@ h4 {
 }
 
 .product-media {
+  position: relative;
   border-radius: 14px;
   overflow: hidden;
   aspect-ratio: 3 / 4;

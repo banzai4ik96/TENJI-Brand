@@ -106,6 +106,34 @@
       img.alt = item.title || "Футболка TENJI";
       media.appendChild(img);
 
+      if (images.length > 1) {
+        const prev = document.createElement("button");
+        prev.type = "button";
+        prev.className = "carousel-btn prev";
+        prev.textContent = "<";
+        prev.addEventListener("click", (event) => {
+          event.preventDefault();
+          state.carousel[item.id] = (state.carousel[item.id] - 1 + images.length) % images.length;
+          renderCatalog();
+        });
+
+        const next = document.createElement("button");
+        next.type = "button";
+        next.className = "carousel-btn next";
+        next.textContent = ">";
+        next.addEventListener("click", (event) => {
+          event.preventDefault();
+          state.carousel[item.id] = (state.carousel[item.id] + 1) % images.length;
+          renderCatalog();
+        });
+
+        const counter = document.createElement("div");
+        counter.className = "carousel-counter";
+        counter.textContent = `${idx + 1}/${images.length}`;
+
+        media.append(prev, next, counter);
+      }
+
       const title = document.createElement("h3");
       title.textContent = item.title;
       const desc = document.createElement("p");

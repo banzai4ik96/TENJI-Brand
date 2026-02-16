@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://banzai4ik96.github.io/TENJI-Brand/</loc></url>
-  <url><loc>https://banzai4ik96.github.io/TENJI-Brand/anime-futbolki-almaty.html</loc></url>
-  <url><loc>https://banzai4ik96.github.io/TENJI-Brand/oplata-kaspi.html</loc></url>
-  <url><loc>https://banzai4ik96.github.io/TENJI-Brand/rock-futbolki.html</loc></url>
+  <url>
+    <loc>https://banzai4ik96.github.io/TENJI-Brand/</loc>
+  </url>
+  <url>
+    <loc>https://banzai4ik96.github.io/TENJI-Brand/anime-futbolki-almaty.html</loc>
+  </url>
+  <url>
+    <loc>https://banzai4ik96.github.io/TENJI-Brand/oplata-kaspi.html</loc>
+  </url>
+  <url>
+    <loc>https://banzai4ik96.github.io/TENJI-Brand/rock-futbolki.html</loc>
+  </url>
 </urlset>
