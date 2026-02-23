@@ -3,6 +3,7 @@
   const catalogGrid = document.getElementById("catalog-grid");
   const filtersWrap = document.getElementById("catalog-filters");
   const lookbookWrap = document.getElementById("lookbook-grid");
+  const popularProductsWrap = document.getElementById("popular-products-links");
   const whatsappLink = document.getElementById("footer-whatsapp-link");
   const navWhatsappLink = document.getElementById("nav-whatsapp-link");
 
@@ -93,6 +94,11 @@
     return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   }
 
+  function productPageUrl(item) {
+    const value = String(item?.url || "").trim();
+    return value;
+  }
+
   function renderCatalog() {
     catalogGrid.innerHTML = "";
     const items = filteredProducts();
@@ -109,6 +115,20 @@
 
       const card = document.createElement("article");
       card.className = "product-card";
+      const detailsUrl = productPageUrl(item);
+      if (detailsUrl) {
+        card.setAttribute("role", "link");
+        card.tabIndex = 0;
+        card.addEventListener("click", (event) => {
+          if (event.target.closest("a, button")) return;
+          window.location.href = detailsUrl;
+        });
+        card.addEventListener("keydown", (event) => {
+          if (event.key !== "Enter" && event.key !== " ") return;
+          event.preventDefault();
+          window.location.href = detailsUrl;
+        });
+      }
 
       const tag = document.createElement("div");
       tag.className = "product-tag anime";
@@ -162,13 +182,23 @@
       meta.className = "product-meta";
       const price = document.createElement("span");
       price.textContent = formatPrice(item.price);
+      const actions = document.createElement("div");
+      actions.className = "card-tools";
+      if (detailsUrl) {
+        const details = document.createElement("a");
+        details.className = "wa-button";
+        details.href = detailsUrl;
+        details.textContent = "Подробнее";
+        actions.appendChild(details);
+      }
       const wa = document.createElement("a");
       wa.className = "wa-button";
       wa.href = waLinkForProduct(item);
       wa.target = "_blank";
       wa.rel = "noopener noreferrer";
       wa.textContent = "Заказать в WhatsApp";
-      meta.append(price, wa);
+      actions.appendChild(wa);
+      meta.append(price, actions);
 
       card.append(tag, media, title, desc, meta);
       catalogGrid.appendChild(card);
@@ -194,10 +224,23 @@
     });
   }
 
+  function renderPopularProducts() {
+    if (!popularProductsWrap) return;
+    popularProductsWrap.innerHTML = "";
+    state.products.slice(0, 8).forEach((item) => {
+      const link = document.createElement("a");
+      link.className = "catalog-filter";
+      link.href = productPageUrl(item) || "#catalog";
+      link.textContent = item.title;
+      popularProductsWrap.appendChild(link);
+    });
+  }
+
   function renderAll() {
     renderFilters();
     renderCatalog();
     renderLookbook();
+    renderPopularProducts();
   }
 
   async function loadSiteData() {

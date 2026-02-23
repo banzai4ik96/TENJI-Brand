@@ -59,8 +59,120 @@
   },
   "products": [
     {
+      "id": 16,
+      "title": "Футболка Gojo Satoru (Jujutsu Kaisen) — чёрная oversize, плотный хлопок | TENJI Anime",
+      "price": 17900,
+      "collection": "TENJI Anime",
+      "description": "Аниме футболка Gojo Satoru из Jujutsu Kaisen (Магическая битва) в чёрном цвете и свободной oversize-посадке. Контрастный принт в японской эстетике подходит для streetwear-образов с карго, джинсами и кедами. Плотный хлопок держит форму и комфортен на каждый день. Заказ в Алматы через WhatsApp, оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/gojo.jpg",
+        "uploads/products-web/gojo2.jpg",
+        "uploads/products-web/gojo3.jpg",
+        "uploads/products-web/gojo4.jpg",
+        "uploads/products-web/gojo5.jpg",
+        "uploads/products-web/gojo6.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/gojo-satoru-jujutsu-kaisen-chernaya-oversize-plotnyy-hlopok.html"
+    },
+    {
+      "id": 15,
+      "title": "Футболка Bunny — чёрная варёнка oversize, плотный хлопок | TENJI Brand",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Streetwear футболка Bunny в оттенке чёрная варёнка (washed) с акцентным принтом кролика. Oversize-посадка даёт свободный силуэт и хорошо сочетается с джинсами, карго и шортами; модель подходит для женских и мужских образов. Плотный хлопок рассчитан на активную носку. Купить в Алматы можно через WhatsApp: оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/bunny.jpg",
+        "uploads/products-web/bunny2.jpg",
+        "uploads/products-web/bunny3.jpg",
+        "uploads/products-web/bunny4.jpg",
+        "uploads/products-web/bunny5.jpg",
+        "uploads/products-web/bunny6.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/bunny-chernaya-varenka-oversize-plotnyy-hlopok.html"
+    },
+    {
+      "id": 14,
+      "title": "Футболка The Warrior Return — белая oversize, японский принт плотный хлопок| TENJI Brand",
+      "price": 17900,
+      "collection": "TENJI Brand",
+      "description": "Белая oversize футболка The Warrior Return с японским принтом: журавли, волны и красное солнце в аккуратной графике. Это универсальная streetwear модель для повседневной одежды — легко комбинируется с джинсами, карго и кедами. Плотный хлопок держит форму и сохраняет комфортную посадку. Заказ в Алматы через WhatsApp, оплата Kaspi перевод/QR, доставка по Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/warrior.jpg",
+        "uploads/products-web/warrior2.jpg",
+        "uploads/products-web/warrior3.jpg",
+        "uploads/products-web/warrior4.jpg",
+        "uploads/products-web/warrior5.jpg",
+        "uploads/products-web/warrior6.jpg",
+        "uploads/products-web/warrior7.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/the-warrior-return-belaya-oversize-yaponskiy-print.html"
+    },
+    {
+      "id": 13,
+      "title": "Футболка Red Sun — белая oversize, ткань «холодок» | TENJI Brand",
+      "price": 6990,
+      "collection": "TENJI Brand",
+      "description": "Футболка Red Sun — белая streetwear модель с принтом красного солнца и силуэтами птиц в японской эстетике. Свободная oversize-посадка и лёгкая ткань «холодок» делают её удобной для тёплой погоды, прогулок и повседневной носки. Базово сочетается с джинсами, шортами и карго. Заказ в Алматы через WhatsApp, оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/redsun.jpg",
+        "uploads/products-web/redsun2.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/red-sun-belaya-oversize-tkan-holodok.html"
+    },
+    {
+      "id": 12,
+      "title": "Аниме лонгслив Demon Slayer (Шинобу / Томиока) — ткань «холодок» | TENJI Anime",
+      "price": 9990,
+      "collection": "TENJI Anime",
+      "description": "Аниме лонгслив Demon Slayer (Клинок, рассекающий демонов) в двух вариантах принта: Шинобу Кочо и Гию Томиока. Модель подходит для повседневной носки и streetwear-образов, хорошо сочетается с карго, джинсами и кедами. Ткань «холодок» мягкая, гладкая и комфортная в помещении и в тёплую погоду. Купить в Алматы можно через WhatsApp: оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/longsliv.jpg",
+        "uploads/products-web/longsliv2.jpg",
+        "uploads/products-web/longsliv3.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/demon-slayer-shinobu-tomioka-tkan-holodok.html"
+    },
+    {
+      "id": 11,
+      "title": "Аниме футболка Berserk — чёрная oversize плотный хлопок| TENJI Anime",
+      "price": 17900,
+      "collection": "TENJI Anime",
+      "description": "Аниме футболка Berserk (Берсерк) — чёрная oversize модель для фанатов тёмной манга-эстетики и streetwear-образов. Свободная посадка удобно сочетается с карго, джинсами и кедами и подходит для повседневной носки. Фото в карточке показывают принт и посадку с разных ракурсов. Заказ в Алматы через WhatsApp, оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
+      "sizes": [
+        "OneSize-Oversize"
+      ],
+      "images": [
+        "uploads/products-web/Berserk.jpg",
+        "uploads/products-web/Berserk2.jpg",
+        "uploads/products-web/Berserk3.jpg",
+        "uploads/products-web/Berserk4.jpg"
+      ],
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/berserk-chernaya-oversize.html"
+    },
+    {
       "id": 10,
-      "title": "Аниме футболка Chainsaw Man — oversize, чёрная",
+      "title": "Аниме футболка Chainsaw Man — oversize, чёрная плотный хлопок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка Chainsaw Man с ярким манга-принтом и свободной oversize-посадкой. Подходит для streetwear одежды и повседневных образов. Купить в Алматы через WhatsApp: оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
@@ -74,11 +186,12 @@
         "uploads/products-web/Demonslayer4.jpg",
         "uploads/products-web/Demonslayer5.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/chainsaw-man-oversize-chernaya.html"
     },
     {
       "id": 9,
-      "title": "Аниме футболка Demon Slayer (Иноске) — oversize",
+      "title": "Аниме футболка Demon Slayer (Иноске) — oversize плотный хлопок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка Demon Slayer с принтом Иноске для фанатов манги и streetwear-стиля. Свободная oversize-посадка и плотный хлопок. Заказ в Алматы через WhatsApp, оплата Kaspi, доставка по Алматы и Казахстану.",
@@ -93,11 +206,12 @@
         "uploads/products-web/Inosuke5.jpg",
         "uploads/products-web/Inosuke2.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/demon-slayer-inoske-oversize.html"
     },
     {
       "id": 8,
-      "title": "Streetwear футболка с принтом «Хочется кофе...» — oversize, белая",
+      "title": "Streetwear футболка с принтом «Хочется кофе...» — oversize, белая плотный хлопок",
       "price": 17900,
       "collection": "TENJI Brand",
       "description": "Streetwear футболка с авторским принтом TENJI Brand в формате one size oversize. Универсальная модель для повседневной одежды и базовых городских образов. Купить в Алматы через WhatsApp: оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
@@ -111,11 +225,12 @@
         "uploads/products-web/kofeb4.jpg",
         "uploads/products-web/kofeb5.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/s-printom-hochetsya-kofe-oversize-belaya.html"
     },
     {
       "id": 7,
-      "title": "Аниме футболка Jujutsu Kaisen — oversize, чёрная",
+      "title": "Аниме футболка Jujutsu Kaisen — oversize, чёрная плотный хлопок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка Jujutsu Kaisen с крупным принтом на спине и свободной oversize-посадкой. Подходит для городского streetwear-гардероба и повседневной одежды. Заказ в Алматы через WhatsApp, оплата Kaspi, доставка по Алматы и Казахстану.",
@@ -127,11 +242,12 @@
         "uploads/products-web/Jujutsukaisen2.jpg",
         "uploads/products-web/Jujutsukaisen3.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/jujutsu-kaisen-oversize-chernaya.html"
     },
     {
       "id": 6,
-      "title": "Аниме футболка Itachi (Naruto) — oversize, чёрная",
+      "title": "Аниме футболка Itachi (Naruto) — oversize, белая нежный холодок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка Itachi из Naruto с акцентным принтом и комфортной oversize-посадкой. Модель для streetwear и ежедневной одежды в стиле casual. Купить в Алматы через WhatsApp: оплата Kaspi, доставка по Алматы и Казахстану.",
@@ -143,11 +259,12 @@
         "uploads/products-web/Itachi.jpg",
         "uploads/products-web/Itachi3.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/itachi-naruto-oversize-chernaya.html"
     },
     {
       "id": 5,
-      "title": "Streetwear футболка с принтом Mona Lisa Peace — oversize, белая",
+      "title": "Streetwear футболка с принтом Mona Lisa Peace — oversize, белая нежный холодок",
       "price": 9990,
       "collection": "TENJI Brand",
       "description": "Белая streetwear футболка с арт-принтом Mona Lisa Peace в посадке one size oversize. Мягкая ткань и универсальный дизайн для женской и мужской повседневной одежды. Заказ в Алматы через WhatsApp, оплата Kaspi, доставка по Алматы и Казахстану.",
@@ -159,11 +276,12 @@
         "uploads/products-web/Monalisa2.jpg",
         "uploads/products-web/Monalisa3.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/s-printom-mona-lisa-peace-oversize-belaya.html"
     },
     {
       "id": 4,
-      "title": "Аниме футболка Атака Титанов — oversize, чёрная",
+      "title": "Аниме футболка Атака Титанов — oversize, чёрная плотный хлопок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка Attack on Titan с символикой Разведкорпуса и свободной oversize-посадкой. Плотный хлопок и выразительный принт для streetwear и повседневной одежды. Купить в Алматы через WhatsApp: оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
@@ -176,11 +294,12 @@
         "uploads/products-web/Attackontitan3.jpg",
         "uploads/products-web/Attackontitan4.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/ataka-titanov-oversize-chernaya.html"
     },
     {
       "id": 3,
-      "title": "Аниме футболка One Piece Zoro — oversize",
+      "title": "Аниме футболка One Piece Zoro — oversize нежный холодок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка One Piece с принтом Roronoa Zoro и свободной oversize-посадкой. Легкая ткань и универсальный крой для manga streetwear и повседневной одежды. Заказ в Алматы через WhatsApp, оплата Kaspi, доставка по Алматы и Казахстану.",
@@ -194,11 +313,12 @@
         "uploads/products-web/Zoro4.jpg",
         "uploads/products-web/Zoro5.jpg"
       ],
-      "created_at": "2026-02-12 18:30:00"
+      "created_at": "2026-02-12 18:30:00",
+      "url": "products/one-piece-zoro-oversize.html"
     },
     {
       "id": 2,
-      "title": "Рок футболка Guns N' Roses — oversize, чёрная",
+      "title": "Рок футболка Guns N' Roses — oversize, чёрная плотный хлопок",
       "price": 17900,
       "collection": "TENJI Rock",
       "description": "Рок футболка Guns N' Roses в стиле TENJI Rock: плотный хлопок, свободная oversize-посадка и выразительный концертный принт. Подходит для рок и streetwear гардероба. Купить в Алматы через WhatsApp; оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
@@ -211,11 +331,12 @@
         "uploads/products-web/product_cb4b827ab38416d74b4e.jpg",
         "uploads/products-web/product_48c47d2154838028249a.jpg"
       ],
-      "created_at": "2026-02-03 16:44:20"
+      "created_at": "2026-02-03 16:44:20",
+      "url": "products/guns-n-roses-oversize-chernaya.html"
     },
     {
       "id": 1,
-      "title": "Аниме футболка Атака Титанов — oversize, серая ретро",
+      "title": "Аниме футболка Атака Титанов — oversize, серая ретро плотный хлопок",
       "price": 17900,
       "collection": "TENJI Anime",
       "description": "Аниме футболка «Атака Титанов» в ретро-стиле: свободная oversize-посадка, плотный хлопок и акцентный принт для streetwear-образов. Модель подходит для повседневной одежды. Купить в Алматы через WhatsApp; оплата Kaspi перевод/QR, доставка по Алматы и Казахстану.",
@@ -228,7 +349,8 @@
         "uploads/products-web/d493ac9e-222c-4006-a404-1e2576c32b6e.jpg",
         "uploads/products-web/47f74e0e-8180-4bcb-9b20-1bfe962daa4d.jpg"
       ],
-      "created_at": "2026-02-03 16:33:10"
+      "created_at": "2026-02-03 16:33:10",
+      "url": "products/ataka-titanov-oversize-seraya-retro.html"
     }
   ]
 }
